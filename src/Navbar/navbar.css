@@ -1,0 +1,61 @@
+img{
+	width: 2.5%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn-grp{
+	float: right;
+	margin-top: 15px;
+}
+.btn{
+	background-color: #aaa;
+	border:1.5px solid #999;
+	outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:none;
+	margin: 5px;
+	border-radius: 3px;
+	padding: 3px 7px;
+	color: black;
+}
+.admin-link{
+	font-weight: bolder;
+	font-size: 35px;
+	color: white;
+	margin-left: 5px;
+	text-decoration: none;
+}
+.navbar{
+	background-color: #444;
+	padding: 5px;
+	height: 90px;
+}
+li{
+	list-style-type: none;
+}
+
+.menuButton:hover{
+	background-color: #808080;
+}
+.loggedInAs{
+	color: white;
+	display: inline;
+	float: right;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+}
+.changePassword{
+	color: white;
+	position: absolute;
+	top: 70px;
+	right: 250px;
+	font-size: larger;
+	font-weight: 700;
+}
+.changePassword:hover{
+	color: #ddd;
+	text-decoration:underline;
+}

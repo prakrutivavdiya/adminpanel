@@ -1,0 +1,25 @@
+input, select {
+  box-sizing: border-box;
+  display: block;
+  width: 65%;
+  display: inline-block;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  box-shadow: 2px 0 2px #ccf;
+  margin: 5px;
+  font-size: 15px;
+ }
+
+input:focus {
+  border: 1px solid #aaf; }
+.invalid{
+	border-color: red;
+}
+label {
+  display: inline-block;
+  width: 23%;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px; }
